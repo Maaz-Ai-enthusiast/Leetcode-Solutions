@@ -1,12 +1,3 @@
-// var restoreString = function(s, indices) {
-//     let shuffleStr=[];
-//     for(let i=0;i<s.length;i++){
-//        let curVal=indices[i];
-//        shuffleStr.push(s[curVal]);
-//     }
-//     return shuffleStr.join("")
-// };
-
 var restoreString = function(s, indices) {
     let shuffleStr = new Array(s.length);
     for (let i = 0; i < s.length; i++) {
